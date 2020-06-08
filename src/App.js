@@ -1,17 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+//import Profile from './components/Profile/Profile';
+//import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-      </header>
+      <div className="header"><Header></Header></div>
+      <div className="profile">
+        {/* <Profile></Profile> */}
+        </div>
+      <div className="footer">
+        {/* <Footer></Footer> */}
+        </div>
     </div>
   );
 }
